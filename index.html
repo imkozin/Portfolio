@@ -1,162 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/b6d905c2a6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
-</head>
-<body>
-    <nav id="navbar">
-        <ul>
-            <li id="home-link"><a href="/index.html">Home</a></li>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <header>
-        <div class="overlay">
-            <h1>Hello, welcome to my portfolio website</h1>
-            <p>My name is Ivan Kozin and I am a frontend developer with a passion for creating engaging and intuitive user experiences. .</p>
-            <a class="see-more-button" href="#">
-            <span>See more</span></a>
-        </div>
-    </header>
-    <main>
-        <section id="about-me">
-            <h2>About me</h2>
-            <div class="about-me-flexbox-wrapper">
-                <div class="profile-photo-wrapper">
-                    <img class="profile-photo" src="./images/ivank.jpg" alt="Ivan">
-                    <p class="profile-photo-desc">Full Stack Developer</p>
-                </div>
-                <div class="about-me-text-wrapper">
-                    <h3>Ivan Kozin</h3>
-                    <p>I specialize in building responsive websites and web applications using modern web technologies such as HTML, CSS, and JavaScript. With an eye for detail and a focus on usability, I strive to create visually stunning designs that are both functional and intuitive to use. Whether you're looking for a complete redesign of your website or a new web application from scratch, I have the skills and experience to bring your vision to life. Take a look at my portfolio and feel free to get in touch to discuss your next project!</p>
-                </div>
-            </div>
-        </section>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <div class="portfolio-flex-wrapper">
-                <img class="portfolio-flex-item" src="./images/portfolio/port13.png" alt="">
-                <img class="portfolio-flex-item" src="./images/portfolio/port11.png" alt="">
-                <img class="portfolio-flex-item" src="./images/portfolio/port6.png" alt="">
-                <img class="portfolio-flex-item" src="./images/portfolio/port8.png" alt="">
-                <img class="portfolio-flex-item" src="./images/portfolio/port3.png" alt="">
-                <img class="portfolio-flex-item" src="./images/portfolio/port7.png" alt="">
-            </div>
-        </section>
-        <section id="blog">
-            <h2>Blog</h2>
-            <div class="blog-flex-wrapper">
-                <div class="blog-item">
-                    <div class="blog-item-top-section">
-                        <img src="./images/blog/polit.jpg" alt="">
-                    </div>
-                    <div class="blog-item-bottom-section">
-                        <h4>Post Title</h4>
-                        <p class="blog-text">Some quick example text to build on the card title...</p>
-                        <div class="blog-link-section">
-                            <a class="blog-link" href="#">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-item-top-section">
-                        <img src="./images/blog/images.jpg" alt="">
-                    </div>
-                    <div class="blog-item-bottom-section">
-                        <h4>Post Title</h4>
-                        <p class="blog-text">Some quick example text to build on the card title...</p>
-                        <div class="blog-link-section">
-                            <a class="blog-link" href="#">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-item-top-section">
-                        <img src="./images/blog/imag2.jpg" alt="">
-                    </div>
-                    <div class="blog-item-bottom-section">
-                        <h4>Post Title</h4>
-                        <p class="blog-text">Some quick example text to build on the card title...</p>
-                        <div class="blog-link-section">
-                            <a class="blog-link" href="#">Read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="our-team">
-            <h2>Our Team</h2>
-            <div class="our-team-flex-wrapper">
-                <div class="our-team-item">
-                    <img src="./images/face1.jpg" alt="">
-                    <span>Dave</span>
-                    <p class="position">Manager</p>
-                </div>
-                <div class="our-team-item">
-                    <img src="./images/face2.jpg" alt="">
-                    <span>Sarah</span>
-                    <p class="position">Senior Engineer</p>
-                </div>
-                <div class="our-team-item">
-                    <img src="./images/face3.jpg" alt="">
-                    <span>Chris</span>
-                    <p class="position">Front-End Developer</p>
-                </div>
-                <div class="our-team-item">
-                    <img src="./images/face1.jpg" alt="">
-                    <span>Dave's Twin Brother</span>
-                    <p class="position">Team Manager</p>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <div class="contact-left">
-                <p class="contact-title">Get in Touch</p>
-                <div class="social-links">
-                    <a href="https://github.com/imkozin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ivankozin/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/ivannizok" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/im.kozin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="contact-right">
-                <!-- <form action="">
-                    <input type="text" value="Your Name" name="name" id="name">
-                    <input type="email" value="Your Email" name="email" id="email">
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    <button type="submit">Send</button>
-                </form> -->
-                <form>
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name-input" placeholder="Your Name">
-                      
-                    </div>
-                    <div class="form-group">
-                      <input type="email" class="form-control" id="email-input" placeholder="Your Email">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                    <button type="submit" class="btn btn-primary">Send</button>
-                  </form>
-            </div>
-        </section>
-    </main>
-    <footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
 
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./images/Ivan.jpg"
+              alt="Ivan Kozin Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Ivan Kozin</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#social" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Ivan Kozin</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I am a Junior Full-Stack developer with a passion for creating engaging and intuitive user experiences.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Ivan Kozin</strong>
+                and I'm a <strong> Frontend / Fullstack Developer </strong> located in
+                Israel. 
+              <p class="about__content-details-para">
+                I specialize in building responsive websites and web applications using modern web technologies such as HTML, CSS, and JavaScript. With an eye for detail and a focus on usability, I strive to create visually stunning designs that are both functional and intuitive to use. Whether you're looking for a complete redesign of your website or a new web application from scratch, I have the skills and experience to bring your vision to life. Take a look at my portfolio and feel free to <strong>contact</strong> me here.
+              </p>
+            </div>
+            <a href="./#social" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Vue</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Node</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Django</div>
+              <div class="skills__skill">PostgreSQL</div>
+              <div class="skills__skill">MongoDB</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 1</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 2</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 3</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer id="social" class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h4 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h4>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./images/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./images/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./images/facebook-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./images/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Ivan Kozin</h4>
+            <h2 style="margin-top: 20px;">ivan.kozin@hotmail.com</h2>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
