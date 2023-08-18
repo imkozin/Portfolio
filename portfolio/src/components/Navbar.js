@@ -24,6 +24,7 @@ function Navbar() {
   
     return (  
         <div className='navbar__wrapper' id={expandNavbar ? "open" : "close"}>
+            {/* {expandNavbar && <div className="overlay" onClick={handleToggleClick} />} */}
             <div className="logo__container">
                 <img className="logo__container-img" src='/Ivan.jpg' alt='logo'/>
                 <p className='logo__container-name'>Ivan Kozin</p>

@@ -9,7 +9,7 @@ function Home() {
                 <div className="prompt">
                     <p>A Junior Full-Stack developer with a passion for creating engaging and intuitive user experiences.</p>
                 </div>
-                <Button className='btn'>Download CV</Button>
+                <Button className='btn' onClick={() => window.open('./assets/CV_Ivan_Kozin.pdf')}>Download CV</Button>
             </div>
         </div>
     )

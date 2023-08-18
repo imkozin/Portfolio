@@ -80,12 +80,20 @@
       font-size: 2em;
     }
   
-    .skills__wrapper h3 {
+    .skills__wrapper h3, .text__wrapper h3 {
         font-size: 1.5em;
     }
 
     .skills__skill {
         text-align: center;
+        padding: 0.5em 1em;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .text__container {
+        font-size: 14px;
+        letter-spacing: normal;
     }
 
   }
