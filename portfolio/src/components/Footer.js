@@ -6,7 +6,7 @@ import '../styles/Footer.css'
 
 function Footer() {
     return (
-        <div className="footer__wrapper">
+        <div className="footer">
             <div className='left'>
                 <h2 className='title'>Ivan Kozin</h2>
                 <h5 className='email'>ivan.kozin@hotmail.com</h5>
@@ -14,10 +14,18 @@ function Footer() {
             <div className='right'>
                 <h2 className='title'>Social Media</h2>
                 <div className='socialMedia'>
-                    <InstagramIcon/>
+                    <a href="https://www.instagram.com/im.kozin/" target="_blank" rel="noopener noreferrer">
+                    <InstagramIcon />
+                    </a>
+                <a href="https://www.facebook.com/ivannizok" target="_blank" rel="noopener noreferrer">
                     <FacebookIcon />
+                </a>
+                <a href="https://www.linkedin.com/in/ivankozin/" target="_blank" rel="noopener noreferrer">
                     <LinkedInIcon />
+                </a>
+                <a href="https://github.com/imkozin" target="_blank" rel="noopener noreferrer">
                     <GithubIcon />
+                </a>
                 </div>
             </div>
         </div>

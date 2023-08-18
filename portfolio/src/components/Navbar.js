@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import '../styles/Navbar.css';
 import { useState, useEffect } from 'react';
 import { Button } from '@mui/material';
@@ -38,10 +38,18 @@ function Navbar() {
               </Button>
             </div>
             <div className="links__container">
-              <Link to="/"> Home </Link>
-              <Link to='/about'>About</Link>
-              <Link to="/projects"> Projects </Link>
-              <Link to="/contact">Contact</Link>
+            <Link to='home' smooth={true} duration={500}>
+            Home
+            </Link>
+            <Link to='about' smooth={true} duration={500}>
+            About
+            </Link>
+            <Link to='projects' smooth={true} duration={500}>
+            Projects
+            </Link>
+            <Link to='footer' smooth={true} duration={500}>
+            Contact
+            </Link>
             </div>
         </div>
     );

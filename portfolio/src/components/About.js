@@ -7,11 +7,9 @@ function About() {
             <span className="line"></span>
             <div className='about__content'>
                     <div className='text__wrapper'>
-                        <div className='text'>
-                            <h3>Get to know me!</h3>
-                            
-                    
-                        </div>
+                        <h3>Get to know me!</h3>
+                        <p className='text__container'> Hey! I'm a Frontend / Fullstack Developer located in Israel. I specialize in building responsive websites and web applications using modern web technologies such as HTML, CSS, and JavaScript. With an eye for detail and a focus on usability, I strive to create visually stunning designs that are both functional and intuitive to use. Through my portfolio, I'm excited to share the projects that have shaped my learning journey so far, and I can't wait to contribute my skills to projects that make a meaningful impact. Thank you for stopping by – feel free to browse through my work, and if you're interested in collaboration do not hesitate to contact me.
+                        </p>
                     </div>
                 <div className='skills__wrapper'>
                     <h3>My Skills</h3>
