@@ -55,6 +55,11 @@
     width: 100%;
 }
 
+.project__img {
+    width: 28em;
+    height: 19em;
+}
+
 @media only screen and (max-width: 768px) {
     .projects h2 {
         font-size: 2em;
