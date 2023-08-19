@@ -1,0 +1,153 @@
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projects h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #434754;
+    height: 50px;
+  }
+
+  .line {
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #434754;
+    margin-bottom: 2em;
+}
+
+.intro {
+    width: 50%;
+    font-size: 20px;
+    color: #343541;
+    letter-spacing: 1px;
+}
+
+.project__wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+}
+
+.project__container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project__container h3 {
+    font-size: 2em;
+    color: #343541;
+}
+
+.screenshot, .project__container {
+    display: flex;
+    margin: 0 2em;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+
+.screenshot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+.screenshot img {
+    width: 100%;
+    height: 15em;
+}
+
+.description {
+    display: flex;
+    text-align: justify;
+    font-size: 20px;
+    color: #343541;
+    letter-spacing: 1px;
+}
+
+.links__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+.link {
+    padding: 1em 2em;
+    background-color: #999;
+    border-radius: 5px;
+    font-weight: 600;
+    gap: 1;
+    margin: 1.5em 0;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+
+.link:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+@media only screen and (max-width: 768px) {
+    .projects h2 {
+        font-size: 2em;
+      }
+
+    .intro {
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+
+    .line {
+        margin-bottom: 2em;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container h3 {
+        font-size: 1.5em;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .screenshot img {
+        height: 12em;
+    }
+
+    .link {
+        text-align: center;
+        padding: 0.5em 1em;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
