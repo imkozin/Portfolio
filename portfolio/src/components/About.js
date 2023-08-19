@@ -1,4 +1,4 @@
-import '../styles/About.css'
+import '../styles/About.css';
 
 function About() {
     return (
@@ -14,18 +14,18 @@ function About() {
                 <div className='skills__wrapper'>
                     <h3>My Skills</h3>
                     <div className='skills__container'>
-                        <div class="skills__skill">HTML</div>
-                        <div class="skills__skill">CSS</div>
-                        <div class="skills__skill">JavaScript</div>
-                        <div class="skills__skill">React</div>
-                        <div class="skills__skill">Vue</div>
-                        <div class="skills__skill">SASS</div>
-                        <div class="skills__skill">GIT</div>
-                        <div class="skills__skill">Node</div>
-                        <div class="skills__skill">Python</div>
-                        <div class="skills__skill">Django</div>
-                        <div class="skills__skill">PostgreSQL</div>
-                        <div class="skills__skill">MongoDB</div>
+                        <div className="skills__skill">CSS</div>
+                        <div className="skills__skill">JavaScript</div>
+                        <div className="skills__skill">HTML</div>
+                        <div className="skills__skill">React</div>
+                        <div className="skills__skill">Vue</div>
+                        <div className="skills__skill">SASS</div>
+                        <div className="skills__skill">GIT</div>
+                        <div className="skills__skill">Node</div>
+                        <div className="skills__skill">Python</div>
+                        <div className="skills__skill">Django</div>
+                        <div className="skills__skill">PostgreSQL</div>
+                        <div className="skills__skill">MongoDB</div>
                         </div>
                 </div>
             </div>

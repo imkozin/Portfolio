@@ -9,7 +9,9 @@ function Footer() {
         <div className="footer">
             <div className='left'>
                 <h2 className='title'>Ivan Kozin</h2>
-                <h5 className='email'>ivan.kozin@hotmail.com</h5>
+                <a href="mailto:ivan.kozin@hotmail.com" className='email'>
+                ivan.kozin@hotmail.com
+                </a>
             </div>
             <div className='right'>
                 <h2 className='title'>Social Media</h2>
