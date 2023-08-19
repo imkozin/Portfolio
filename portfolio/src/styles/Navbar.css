@@ -57,6 +57,7 @@
   }
 
   .navbar__wrapper a:hover {
+    cursor: pointer;
     color: #777;
   }
 

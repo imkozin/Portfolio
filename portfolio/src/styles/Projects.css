@@ -32,8 +32,6 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* display: grid;
-    grid-template-columns: 2fr 1fr; */
     justify-content: center;
     align-items: center;
     margin: 3em;
@@ -65,7 +63,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 450px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
@@ -83,7 +81,7 @@
 
 .description {
     display: flex;
-    text-align: start;
+    text-align: justify;
     font-size: 20px;
     color: #343541;
     letter-spacing: 1px;
@@ -128,5 +126,28 @@
 
     .line {
         margin-bottom: 2em;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container h3 {
+        font-size: 1.5em;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .screenshot img {
+        height: 12em;
+    }
+
+    .link {
+        text-align: center;
+        padding: 0.5em 1em;
+        font-weight: bold;
+        font-size: 14px;
     }
 }

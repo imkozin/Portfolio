@@ -45,7 +45,7 @@
 
 .text__container {
     display: flex;
-    text-align: start;
+    text-align: justify;
     font-size: 20px;
     color: #343541;
     letter-spacing: 1px;
