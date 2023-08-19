@@ -89,7 +89,7 @@
     letter-spacing: 1px;
 }
 
-.links__container {
+.links__wrapper {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;

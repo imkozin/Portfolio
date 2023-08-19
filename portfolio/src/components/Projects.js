@@ -27,7 +27,7 @@ function Projects() {
                     <div className='description'>
                     Travel Map is a web application that allows users to track and visualize the countries they have visited. Users can create an account, log in, and mark the countries they have visited on an interactive map. The application provides a user-friendly interface to manage and showcase their travel experiences. Project is built on Django for Backend and vanilla JavaScript for Frontend.
                     </div>
-                    <div className='links__container'>
+                    <div className='links__wrapper'>
                         <Button class="link">GitHub</Button>
                         <Button class="link">Video</Button>
                     </div>
