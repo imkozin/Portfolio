@@ -77,36 +77,21 @@
 @media only screen and (max-width: 992px) {
     .about__content {
         flex-wrap: wrap;
-        margin: 1em;
     }
 
     .skills__wrapper, .text__wrapper {
         display: flex;
         flex-wrap: wrap;
-        gap: 1;
         width: 1000%;
         height: 50%;
     }
-  }
 
-
-@media only screen and (max-width: 768px) {
-    .about h2 {
-      font-size: 2em;
+    .text__container {
+        font-size: 14px;
+        letter-spacing: normal;
     }
 
-    .skills__wrapper, .text__wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1;
-        width: 1000%;
-        height: 50%;
-    }
-  
-    .skills__wrapper h3, .text__wrapper h3 {
-        font-size: 1.5em;
-    }
-
+    
     .skills__skill {
         text-align: center;
         padding: 0.5em 1em;
@@ -114,9 +99,23 @@
         font-size: 14px;
     }
 
-    .text__container {
-        font-size: 14px;
-        letter-spacing: normal;
+    .skills__wrapper h3, .text__wrapper h3 {
+        font-size: 1.5em;
+    }
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .about h2 {
+        font-size: 2em;
+      }  
+      
+    .skills__wrapper, .text__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1;
+        width: 1000%;
+        height: 50%;
     }
 
   }
