@@ -30,7 +30,7 @@ function Navbar() {
                 <p className='logo__container-name'>Ivan Kozin</p>
             </div>
             <div className="toggleButton">
-              <Button
+              <Button className='btn'
                 onClick={() => {
                   setExpandNavbar((prev) => !prev);
                 }}

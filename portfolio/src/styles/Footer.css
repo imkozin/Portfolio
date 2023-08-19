@@ -46,11 +46,11 @@
       font-size: 20px;
     }
 
-    .left .title {
-      margin-bottom: 1em;
+    .left {
+      margin-top: 1em;
     }
 
     .right .title {
-      margin-bottom: 1.9em;
+      margin-bottom: 1.5em;
     }
   }

@@ -64,4 +64,8 @@
         font-size: 14px;
         letter-spacing: normal;
     }
+
+    .line {
+        margin-bottom: 2em;
+    }
 }
