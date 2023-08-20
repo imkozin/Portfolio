@@ -98,10 +98,11 @@ nav .menu {
     }
 
     .logo__container {
-        position: absolute;
-        left: 1.5rem;
+        position: sticky;
+        /* left: 0; */
         top: 0.25rem;
-        margin: 0 auto;
+        margin-right: 185px;
+        /* margin: 0 auto; */
         z-index: -1;
     }
 
