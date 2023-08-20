@@ -98,7 +98,7 @@ nav .menu {
     }
 
     .logo__container {
-        position: fixed;
+        position: absolute;
         left: 1.5rem;
         top: 0.25rem;
         margin: 0 auto;
