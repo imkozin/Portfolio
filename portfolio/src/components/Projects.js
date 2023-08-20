@@ -18,7 +18,7 @@ function Projects() {
                     </div>
                     <div className='links__wrapper'>
                         <Link class="link" href="https://github.com/imkozin/Final-Project" target="_blank" rel="noopener noreferrer">GitHub</Link>
-                        <Link class="link" href="https://www.loom.com/share/3c60fe01a43844869e1aedef0b87c02e?sid=2814f565-7c9d-40a8-8cf9-e4f11efadcdd" target="_blank" rel="noopener noreferrer">Video</Link>
+                        <Link class="link" href="https://www.loom.com/share/d4bfdeeb3aa14ed4a5de827959dbf693" target="_blank" rel="noopener noreferrer">Video</Link>
                     </div>
                 </div>
             </div>
