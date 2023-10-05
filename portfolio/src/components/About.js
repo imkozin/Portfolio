@@ -20,7 +20,7 @@ function About() {
                         <div className="skills__skill">React</div>
                         <div className="skills__skill">Vue</div>
                         <div className="skills__skill">SASS</div>
-                        <div className="skills__skill">GIT</div>
+                        <div className="skills__skill">Flask</div>
                         <div className="skills__skill">Node</div>
                         <div className="skills__skill">Express</div>
                         <div className="skills__skill">Python</div>
