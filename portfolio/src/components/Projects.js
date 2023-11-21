@@ -13,13 +13,48 @@ function Projects() {
         </div>
         <div className="project__wrapper">
           <div className="screenshot">
+            <img src="/rest.png" alt="project" />
+          </div>
+          <div className="project__container">
+            <h3>E-Commerce Website</h3>
+            <div className="description">
+              This ecommerce project was built in the MEVN stack (MongoDB,
+              Express.js, Vue.js, and Node.js). This is functional and visually
+              appealing online store with the following functionality: user registration and management, product catalog, shopping cart. Utilize SASS to create a cohesive and maintainable style system for the application.
+            </div>
+            <div className="links__wrapper">
+              <Link
+                class="link"
+                href="https://github.com/imkozin/Restaurant"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </Link>
+              <Link
+                class="link"
+                href="https://github.com/imkozin/Restaurant"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Video
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="project__wrapper">
+          <div className="screenshot">
             <img src="/start.png" alt="project" />
           </div>
           <div className="project__container">
             <h3>Manager Web Assistant</h3>
             <div className="description">
               The Manager Web Assistant is a versatile and user-friendly web
-              application designed to streamline organizational management tasks with dynamic and responsive user interfaces. The web application is built with Flask on Backend and utilizes React for frontend. For styling I used Tailwind CSS and Material-UI for modern and visually appealing designs.
+              application designed to streamline organizational management tasks
+              with dynamic and responsive user interfaces. The web application
+              is built with Flask on Backend and utilizes React for frontend.
+              For styling I used Tailwind CSS and Material-UI for modern and
+              visually appealing designs.
             </div>
             <div className="links__wrapper">
               <Link
