@@ -13,6 +13,41 @@ function Projects() {
         </div>
         <div className="project__wrapper">
           <div className="screenshot">
+            <img src="/ram.png" alt="project" />
+          </div>
+          <div className="project__container">
+            <h3>Rick and Morty Wiki</h3>
+            <div className="description">
+              The Website is a Single Page Application dedicated to the
+              fascinating world of Rick and Morty built on Nuxt 3 (VueJS 3).
+              Fans of Rick and Morty should find it easy to navigate and
+              discover information about their favorite characters, episodes,
+              and more. Users can explore the Rick and Morty universe without
+              page reloads, providing a more engaging experience. For styling I used Tailwind CSS which implements a responsive design, making the wiki
+              accessible on various devices.
+            </div>
+            <div className="links__wrapper">
+              <Link
+                class="link"
+                href="https://github.com/imkozin/rick-and-morty"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </Link>
+              <Link
+                class="link"
+                href="https://ram-wiki.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Link
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="project__wrapper">
+          <div className="screenshot">
             <img src="/rest.png" alt="project" />
           </div>
           <div className="project__container">
@@ -20,7 +55,10 @@ function Projects() {
             <div className="description">
               This ecommerce project was built in the MEVN stack (MongoDB,
               Express.js, Vue.js, and Node.js). This is functional and visually
-              appealing online store with the following functionality: user registration and management, product catalog, shopping cart. Utilize SASS to create a cohesive and maintainable style system for the application.
+              appealing online store with the following functionality: user
+              registration and management, product catalog, shopping cart.
+              Utilize SASS to create a cohesive and maintainable style system
+              for the application.
             </div>
             <div className="links__wrapper">
               <Link
